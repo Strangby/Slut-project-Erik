@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Tyrus : MonoBehaviour
+public class City : MonoBehaviour
 {
-    private SpriteRenderer Highlight;
+    public SpriteRenderer Highlight;
+    public GameObject Tyrus;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,12 +20,17 @@ public class Tyrus : MonoBehaviour
 
     void OnMouseOver()
     {
-        Highlight.set
-        Debug.Log("Mouse is over target");
+        this.Highlight.enabled = true;
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            Tyrus.SetActive(true);
+        }
     }
 
     void OnMouseExit()
     {
-        Debug.Log("Mouse is not over target");
+        this.Highlight.enabled = false;
     }
+    
 }
