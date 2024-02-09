@@ -5,7 +5,7 @@ using UnityEngine;
 public class City : MonoBehaviour
 {
     public SpriteRenderer Highlight;
-    public GameObject Tyrus;
+    public GameObject Stad;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +24,7 @@ public class City : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            Tyrus.SetActive(true);
+            Stad.SetActive(true);
         }
     }
 

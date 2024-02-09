@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Exit : MonoBehaviour
+public class TyrusHistory : MonoBehaviour
 {
     public GameObject Panel;
     public Button button;
@@ -22,6 +22,6 @@ public class Exit : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
