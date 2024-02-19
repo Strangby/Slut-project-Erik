@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TyrusHistory : MonoBehaviour
+public class EgaraHistory : MonoBehaviour
 {
     public GameObject Panel;
     public Button button;
-    public GameObject Tyrus;
+    public GameObject Egara;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +18,7 @@ public class TyrusHistory : MonoBehaviour
     void TaskOnClick()
     {
         Panel.SetActive(false);
-        Tyrus.SetActive(true);
+        Egara.SetActive(true);
     }
 
     // Update is called once per frame
