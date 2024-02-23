@@ -7,6 +7,7 @@ public class Exit : MonoBehaviour
 {
     public GameObject Panel;
     public Button button;
+    public GameObject City;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +17,7 @@ public class Exit : MonoBehaviour
 
     void TaskOnClick()
     {
+        City.GetComponent<City>().Flipback();
         Panel.SetActive(false);
     }
 

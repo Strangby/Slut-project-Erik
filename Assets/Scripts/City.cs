@@ -6,6 +6,7 @@ public class City : MonoBehaviour
 {
     public SpriteRenderer Highlight;
     public GameObject Stad;
+    public static bool NoInt;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,15 +23,20 @@ public class City : MonoBehaviour
     {
         this.Highlight.enabled = true;
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && NoInt == false)
         {
             Stad.SetActive(true);
+            Flipback();
         }
     }
 
     void OnMouseExit()
     {
         this.Highlight.enabled = false;
+    }
+    public void Flipback()
+    {
+        NoInt = !NoInt;
     }
     
 }
