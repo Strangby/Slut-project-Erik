@@ -17,12 +17,7 @@ public class Gamemaster : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Name is " + playerName + playerName2);
 
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-             SetPlayerName();
-        }
     }
 
 }
