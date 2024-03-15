@@ -14,6 +14,7 @@ public class dialogueScript : MonoBehaviour
 
     [TextArea(15, 20)]
     [SerializeField] private string[] dialogueContent;
+    [SerializeField] public int index = 0;
     [Header("Object trigger (mouseover for tooltip)")]
     [Tooltip("Objects to activate or deactivate at the end of the dialogue. Drag the object you want to activate/deactivate into the array. Leave empty if you don't want to use it.")]
     [SerializeField] private GameObject[] objectTrigger;
@@ -66,6 +67,30 @@ public class dialogueScript : MonoBehaviour
 
     private void NextLine()
     {
+        if (index != 0)
+        {
+            if (index > dialogueContent.Length)
+            {
+                Debug.Log("Error; index to long");
+            }
+            else
+            {
+                dialogueText.text = dialogueContent[index -1];
+            }
+            
+        }
+        else
+        {
+            if (dialogueIndex < dialogueContent.Length)
+            {
+                dialogueText.text = dialogueContent[dialogueIndex];
+                dialogueIndex++;
+            }
+            else
+            {
+                EndDialogue();
+            }
+        }
 
         if (dialogueIndex < dialogueContent.Length)
         {

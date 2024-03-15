@@ -6,7 +6,13 @@ public class Gamemaster : MonoBehaviour
 {
     public string playerName = "";
     public string playerName2 = "";
-    
+
+    public int startclass;
+    public int popularity;
+    public int relUPE;
+    public int relPSE;
+    public int relDPP;
+    public int relPEN;
 
     // Start is called before the first frame update
     void Start()
@@ -20,4 +26,11 @@ public class Gamemaster : MonoBehaviour
 
     }
 
+    public void Reputation(int UPE, int PSE, int DPP, int PEN)
+    {
+        relUPE += UPE;
+        relPSE += PSE;
+        relDPP += DPP;
+        relPEN += PEN;
+    }
 }

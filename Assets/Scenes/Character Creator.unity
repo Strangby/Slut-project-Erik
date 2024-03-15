@@ -1379,6 +1379,7 @@ RectTransform:
   - {fileID: 1530838153}
   - {fileID: 31650667}
   - {fileID: 1475780843}
+  - {fileID: 1748517484}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1881,8 +1882,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.2876, y: 49.819397}
-  m_SizeDelta: {x: 250, y: 150}
+  m_AnchoredPosition: {x: 3.2876, y: 36.66913}
+  m_SizeDelta: {x: 250, y: 176.3005}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &959534200
 MonoBehaviour:
@@ -1908,10 +1909,10 @@ MonoBehaviour:
     many hundreds of years and has been through many difficult situations spaning
     from wars to famine to terrible rulers.
 
-    
 
-    From which class is your
-    family from?'
+
+    From which class is your family
+    from?'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2584,6 +2585,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerName: 
   playerName2: 
+  startclass: 0
+  popularity: 0
+  relUPE: 0
+  relPSE: 0
+  relDPP: 0
+  relPEN: 0
 --- !u!4 &1256062829
 Transform:
   m_ObjectHideFlags: 0
@@ -2751,7 +2758,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1475780843
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2790,7 +2797,7 @@ MonoBehaviour:
   GameManager: {fileID: 1256062827}
   textInput: {fileID: 0}
   textInput2: {fileID: 0}
-  NextDialog: {fileID: 0}
+  NextDialog: {fileID: 1748517483}
   Button1: {fileID: 1863139541}
   Button2: {fileID: 18195396}
   Button3: {fileID: 1496609972}
@@ -2965,13 +2972,14 @@ GameObject:
   - component: {fileID: 1530838155}
   - component: {fileID: 1530838154}
   - component: {fileID: 1530838156}
+  - component: {fileID: 1530838157}
   m_Layer: 5
   m_Name: Start Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1530838153
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3065,10 +3073,30 @@ MonoBehaviour:
 
     (By the way the
     character you are going to play as will be reffered to as a male)'
+  index: 0
   objectTrigger:
   - {fileID: 31650666}
   repeatableDialogue: 0
   repeatDialogue: 
+--- !u!114 &1530838157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530838152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c25d20fc022624e4daddbdfbbdd5bda8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameManager: {fileID: 1256062827}
+  textInput: {fileID: 0}
+  textInput2: {fileID: 0}
+  NextDialog: {fileID: 31650666}
+  Button1: {fileID: 1038479900}
+  Button2: {fileID: 0}
+  Button3: {fileID: 0}
 --- !u!1 &1629091405
 GameObject:
   m_ObjectHideFlags: 0
@@ -3271,6 +3299,16 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1748517483 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5061418260881232728, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+  m_PrefabInstance: {fileID: 3604474848474070898}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &1748517484 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7227324666087847273, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+  m_PrefabInstance: {fileID: 3604474848474070898}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1859293748
 GameObject:
   m_ObjectHideFlags: 0
@@ -3740,6 +3778,196 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Padding: {x: -8, y: -5, z: -8, w: -5}
   m_Softness: {x: 0, y: 0}
+--- !u!1001 &3604474848474070898
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 616150512}
+    m_Modifications:
+    - target: {fileID: 284790833860933481, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 284790833860933481, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_fontSize
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 284790833860933481, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038187065138214432, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 405.0474
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038187065138214432, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 230
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038187065138214432, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1.7363
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038187065138214432, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 35.594566
+      objectReference: {fileID: 0}
+    - target: {fileID: 5061418260881232728, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_Name
+      value: Class Chose Panel
+      objectReference: {fileID: 0}
+    - target: {fileID: 5061418260881232728, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227324666087847273, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227324666087847273, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227324666087847273, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227324666087847273, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227324666087847273, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227324666087847273, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227324666087847273, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227324666087847273, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227324666087847273, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227324666087847273, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227324666087847273, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227324666087847273, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227324666087847273, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227324666087847273, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227324666087847273, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227324666087847273, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227324666087847273, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227324666087847273, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227324666087847273, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227324666087847273, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410384738742682156, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: dialogueContent.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410384738742682156, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: dialogueContent.Array.data[0]
+      value: 'You grew up in a low class family, your parents were hardworking farmers
+        that got paid only enough to survive.
+
+        
+
+        Your parents cared
+        for you a great deal, so they did what they could for you so that you could
+        get a better life than what they had.
+
+        
+
+        Your childhood
+        was a difficult one.
+
+        
+
+        As such when you were eligable
+        to start school they managed to get you in to one of the better known schools
+        in the country thanks to a friend they had in the kings court.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410384738742682156, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: dialogueContent.Array.data[1]
+      value: 'You grew up in a middle class family, your father was mostly away due
+        to him working as a soldier in the army and your mother was staying at home
+        to take care of you.
+
+        
+
+        Your childhood was a rather ordinary
+        one.
+
+        
+
+        When you were at the age to start going to school
+        your father managed to get you in to one of the more well known schools thanks
+        to him having a friend that could get you in.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410384738742682156, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: dialogueContent.Array.data[2]
+      value: 'You grew up in a high class family, your father was very distant to
+        you and your mother prefering to spend time with his work, while your mother
+        was very close to you and spent most of her time at home with you.
+
+        
+
+        Your
+        childhood was a mixed one for you had everything you wanted but you had alomst
+        no friends.
+
+        
+
+        When you came to the age of starting school
+        your parents made sure you got in one of the best private schools in the
+        country.'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
