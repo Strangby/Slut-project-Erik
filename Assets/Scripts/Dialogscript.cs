@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class dialogueScript : MonoBehaviour
+public class Dialogscript : MonoBehaviour
 {
 
     private Button nextButton;
@@ -14,7 +14,7 @@ public class dialogueScript : MonoBehaviour
 
     [TextArea(15, 20)]
     [SerializeField] private string[] dialogueContent;
-    [SerializeField] public int index = 0;
+    public int index = 0;
     [Header("Object trigger (mouseover for tooltip)")]
     [Tooltip("Objects to activate or deactivate at the end of the dialogue. Drag the object you want to activate/deactivate into the array. Leave empty if you don't want to use it.")]
     [SerializeField] private GameObject[] objectTrigger;
@@ -67,6 +67,7 @@ public class dialogueScript : MonoBehaviour
 
     private void NextLine()
     {
+        Debug.Log("Index is" + index);
         if (index != 0)
         {
             if (index > dialogueContent.Length)
@@ -75,6 +76,7 @@ public class dialogueScript : MonoBehaviour
             }
             else
             {
+                
                 dialogueText.text = dialogueContent[index -1];
             }
             
@@ -92,15 +94,7 @@ public class dialogueScript : MonoBehaviour
             }
         }
 
-        if (dialogueIndex < dialogueContent.Length)
-        {
-            dialogueText.text = dialogueContent[dialogueIndex];
-            dialogueIndex++;
-        }
-        else
-        {
-            EndDialogue();
-        }
+        
     }
 
     public void DialogueButton()

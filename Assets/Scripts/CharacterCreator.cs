@@ -14,6 +14,8 @@ public class CharacterCreator : MonoBehaviour
     public Button Button1;
     public Button Button2;
     public Button Button3;
+
+    public bool Name = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,17 +37,25 @@ public class CharacterCreator : MonoBehaviour
 
     public void ButtonOne()
     {
-        SetPlayerName();
+        if (Name == true)
+        {
+            SetPlayerName();
+        }
+        else
+        {
+            ActivateDialoguePanel(1);
+        }
+        
     }
 
     public void ButtonTwo()
     {
-
+        ActivateDialoguePanel(2);
     }
 
     public void ButtonThree()
     {
-
+        ActivateDialoguePanel(3);
     }
 
 
@@ -65,8 +75,25 @@ public class CharacterCreator : MonoBehaviour
                 GameManager.GetComponent<Gamemaster>().playerName2 = textInput2.text;
 
                 NextDialog.SetActive(true);
+                
+                gameObject.SetActive(false);
             }
         }
+        
+
+    }
+
+    private void ActivateDialoguePanel(int value)
+    {
+        //Activate a game object
+        //Change the variable on the Dialogscript "index" to 0, 1 or 2
+        
+        if(NextDialog.GetComponent<Dialogscript>() != null)
+        {
+            NextDialog.GetComponent<Dialogscript>().index = value;
+        }
+        NextDialog.SetActive(true);
+        gameObject.SetActive(false);
 
     }
 }

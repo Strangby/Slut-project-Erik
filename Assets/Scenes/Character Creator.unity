@@ -345,6 +345,7 @@ MonoBehaviour:
   Button1: {fileID: 1859293750}
   Button2: {fileID: 0}
   Button3: {fileID: 0}
+  Name: 1
 --- !u!1 &146364557
 GameObject:
   m_ObjectHideFlags: 0
@@ -2801,6 +2802,7 @@ MonoBehaviour:
   Button1: {fileID: 1863139541}
   Button2: {fileID: 18195396}
   Button3: {fileID: 1496609972}
+  Name: 0
 --- !u!114 &1475780845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3097,6 +3099,7 @@ MonoBehaviour:
   Button1: {fileID: 1038479900}
   Button2: {fileID: 0}
   Button3: {fileID: 0}
+  Name: 0
 --- !u!1 &1629091405
 GameObject:
   m_ObjectHideFlags: 0
@@ -3791,12 +3794,48 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 284790833860933481, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 284790833860933481, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
       propertyPath: m_fontSize
       value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 284790833860933481, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 284790833860933481, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 284790833860933481, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_fontSizeMin
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 284790833860933481, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
       propertyPath: m_fontSizeBase
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 284790833860933481, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_lineSpacingMax
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 284790833860933481, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 284790833860933481, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
+    - target: {fileID: 284790833860933481, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 284790833860933481, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1038187065138214432, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
       propertyPath: m_SizeDelta.x
@@ -3813,6 +3852,14 @@ PrefabInstance:
     - target: {fileID: 1038187065138214432, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 35.594566
+      objectReference: {fileID: 0}
+    - target: {fileID: 3879957947734940423, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -14
+      objectReference: {fileID: 0}
+    - target: {fileID: 3879957947734940423, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -140
       objectReference: {fileID: 0}
     - target: {fileID: 5061418260881232728, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
       propertyPath: m_Name
@@ -3911,22 +3958,22 @@ PrefabInstance:
       value: 'You grew up in a low class family, your parents were hardworking farmers
         that got paid only enough to survive.
 
-        
 
-        Your parents cared
-        for you a great deal, so they did what they could for you so that you could
-        get a better life than what they had.
 
-        
+        Your parents cared for you
+        a great deal, so they did what they could for you so that you could get a
+        better life than what they had.
 
-        Your childhood
-        was a difficult one.
 
-        
 
-        As such when you were eligable
-        to start school they managed to get you in to one of the better known schools
-        in the country thanks to a friend they had in the kings court.'
+        Your childhood was a difficult
+        one.
+
+
+
+        As such when you were eligable to start school they managed
+        to get you in to one of the better known schools in the country thanks to
+        a friend they had in the kings court.'
       objectReference: {fileID: 0}
     - target: {fileID: 8410384738742682156, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
       propertyPath: dialogueContent.Array.data[1]
@@ -3934,16 +3981,16 @@ PrefabInstance:
         to him working as a soldier in the army and your mother was staying at home
         to take care of you.
 
-        
 
-        Your childhood was a rather ordinary
-        one.
 
-        
+        Your childhood was a rather ordinary one.
 
-        When you were at the age to start going to school
-        your father managed to get you in to one of the more well known schools thanks
-        to him having a friend that could get you in.'
+
+
+        When
+        you were at the age to start going to school your father managed to get you
+        in to one of the more well known schools thanks to him having a friend that
+        could get you in.'
       objectReference: {fileID: 0}
     - target: {fileID: 8410384738742682156, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
       propertyPath: dialogueContent.Array.data[2]
@@ -3951,17 +3998,16 @@ PrefabInstance:
         you and your mother prefering to spend time with his work, while your mother
         was very close to you and spent most of her time at home with you.
 
-        
+
 
         Your
         childhood was a mixed one for you had everything you wanted but you had alomst
         no friends.
 
-        
 
-        When you came to the age of starting school
-        your parents made sure you got in one of the best private schools in the
-        country.'
+
+        When you came to the age of starting school your parents
+        made sure you got in one of the best private schools in the country.'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
