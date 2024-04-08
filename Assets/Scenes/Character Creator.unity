@@ -356,6 +356,36 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7227324666087847273, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
   m_PrefabInstance: {fileID: 325374890}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &31988914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31988912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Content: {fileID: 325374891}
+  m_Horizontal: 1
+  m_Vertical: 1
+  m_MovementType: 1
+  m_Elasticity: 0.1
+  m_Inertia: 1
+  m_DecelerationRate: 0.135
+  m_ScrollSensitivity: 1
+  m_Viewport: {fileID: 0}
+  m_HorizontalScrollbar: {fileID: 0}
+  m_VerticalScrollbar: {fileID: 0}
+  m_HorizontalScrollbarVisibility: 0
+  m_VerticalScrollbarVisibility: 0
+  m_HorizontalScrollbarSpacing: 0
+  m_VerticalScrollbarSpacing: 0
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &116681288
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -501,28 +531,28 @@ PrefabInstance:
       value: 'During the year of 1921 while you were at school, the principal told
         everyone to meet for an important announcement.
 
-        
 
-        When
-        everyone had gathered the principal announced that the army led by general
-        Rudolf Karme has done a coup against the king and that Empyria is now under
-        military rule.
 
-        
+        When everyone
+        had gathered the principal announced that the army led by general Rudolf
+        Karme has done a coup against the king and that Empyria is now under military
+        rule.
 
-        We all started talking amongst ourselves
-        about what this would mean for us and the future of the country.
 
-        
 
-        Many
-        of the students were worried that general Rudolf would install himself as
-        dictator and bring this country to ruin.
+        We all started talking amongst ourselves about what this
+        would mean for us and the future of the country.
 
-        
 
-        But all anyone
-        could do was wait and see what would happen.'
+
+        Many of the students
+        were worried that general Rudolf would install himself as dictator and bring
+        this country to ruin.
+
+
+
+        But all anyone could do was wait and see
+        what would happen.'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -894,111 +924,119 @@ PrefabInstance:
       propertyPath: dialogueContent.Array.data[0]
       value: 'Year 1922
 
-        
-
-        In the past year the country has been
-        seeing a few improvments for the lower and middle classes under the leadership
-        of general Rudolf.
-
-        
-
-        The general has lowered taxes for
-        the lower and middle classes while raising it for the higher classes due
-        to the uneven taxes of the different classes.
 
 
-        This has helped your
-        family to save up a bit more money.
+        In the past year the country has been seeing a
+        few improvments for the lower and middle classes under the leadership of
+        general Rudolf.
 
 
-        The general has also announced
-        that in the near future the country will transition to a presidential goverment
-        and that elections will begin in 2 years time.
+
+        The general has lowered taxes for the lower and
+        middle classes while raising it for the higher classes due to the uneven
+        taxes of the different classes.
 
 
-        Your family did
-        not really care for the news because they did not think that things would
-        change much for the lower class families. But you were hopeful that there
-        would be changes that helped make it easier to get education and get better
-        jobs becasue of it.
+        This has helped your family to
+        save up a bit more money.
 
 
-        Until then general Rudolf would continue to
-        lead the country until the elections.'
+        The general has also announced that in
+        the near future the country will transition to a presidential goverment and
+        that elections will begin in 2 years time.
+
+
+        Your family did not
+        really care for the news because they did not think that things would change
+        much for the lower class families. But you were hopeful that there would
+        be changes that helped make it easier to get education and get better jobs
+        becasue of it.
+
+
+        Until then general Rudolf would continue to lead
+        the country until the elections.'
       objectReference: {fileID: 0}
     - target: {fileID: 8410384738742682156, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
       propertyPath: dialogueContent.Array.data[1]
       value: 'Year 1922
 
-        
-
-        In the past year the country has been
-        seeing a few improvments for the lower and middle classes under the leadership
-        of general Rudolf.
-
-        
-
-        The general has lowered taxes for
-        the lower and middle classes while raising it for the higher classes due
-        to the uneven taxes of the different classes.
 
 
-        This has helped your
-        family to save up a bit more money.
+        In the past year the country has been seeing a
+        few improvments for the lower and middle classes under the leadership of
+        general Rudolf.
 
 
-        The general has also announced
-        that in the near future the country will transition to a presidential goverment
-        and that elections will begin in 2 years time.
+
+        The general has lowered taxes for the lower and
+        middle classes while raising it for the higher classes due to the uneven
+        taxes of the different classes.
 
 
-        This made you and
-        your family celebrate that people from the middle class might finaly get
-        a bigger voice in the running of the country.
+        This has helped your family to
+        save up a bit more money.
 
 
-        Until then general
-        Rudolf would continue to lead the country until the elections.'
+        The general has also announced that in
+        the near future the country will transition to a presidential goverment and
+        that elections will begin in 2 years time.
+
+
+        This made you and your
+        family celebrate that people from the middle class might finaly get a bigger
+        voice in the running of the country.
+
+
+        Until then general Rudolf
+        would continue to lead the country until the elections.'
       objectReference: {fileID: 0}
     - target: {fileID: 8410384738742682156, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
       propertyPath: dialogueContent.Array.data[2]
       value: 'Year 1922
 
-        
-
-        In the past year the country has been
-        seeing a few improvments for the lower and middle classes under the leadership
-        of general Rudolf.
-
-        
-
-        The general has lowered taxes for
-        the lower and middle classes while raising it for the higher classes due
-        to the uneven taxes of the different classes.
 
 
-        This has put your
-        family in a tough position.
+        In the past year the country has been seeing a
+        few improvments for the lower and middle classes under the leadership of
+        general Rudolf.
 
 
-        The general has also announced that
-        in the near future the country will transition to a presidential goverment
-        and that elections will begin in 2 years time.
+
+        The general has lowered taxes for the lower and
+        middle classes while raising it for the higher classes due to the uneven
+        taxes of the different classes.
 
 
-        This made your father
-        and other high class familys a little worried that they would lose a lot
-        of money and influence from this.
+        This has put your family in a tough
+        position.
 
 
-        Until then general Rudolf would
-        continue to lead the country until the elections.'
+        The general has also announced that in the near future
+        the country will transition to a presidential goverment and that elections
+        will begin in 2 years time.
+
+
+        This made your father and other high
+        class familys a little worried that they would lose a lot of money and influence
+        from this.
+
+
+        Until then general Rudolf would continue to lead the
+        country until the elections.'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5061418260881232728, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 31988914}
   m_SourcePrefab: {fileID: 100100000, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+--- !u!224 &325374891 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1038187065138214432, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
+  m_PrefabInstance: {fileID: 325374890}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &360619443
 GameObject:
   m_ObjectHideFlags: 0
