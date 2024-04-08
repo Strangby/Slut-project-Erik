@@ -43,6 +43,7 @@ public class CharacterCreator : MonoBehaviour
         }
         else
         {
+            GameManager.GetComponent<Gamemaster>().startclass = 0;
             ActivateDialoguePanel(1);
         }
         
@@ -50,11 +51,13 @@ public class CharacterCreator : MonoBehaviour
 
     public void ButtonTwo()
     {
+        GameManager.GetComponent<Gamemaster>().startclass = 1;
         ActivateDialoguePanel(2);
     }
 
     public void ButtonThree()
     {
+        GameManager.GetComponent<Gamemaster>().startclass = 2;
         ActivateDialoguePanel(3);
     }
 

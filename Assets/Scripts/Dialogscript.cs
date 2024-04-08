@@ -67,9 +67,14 @@ public class Dialogscript : MonoBehaviour
 
     private void NextLine()
     {
-        Debug.Log("Index is" + index);
-        if (index != 0)
+        Debug.Log("This object is " + transform.name + " and Index is" + index);
+        if (index != 0) //Index används bara om man spelar upp ett meddelande.
         {
+            if (dialogueText.text == dialogueContent[index - 1])
+            {
+                EndDialogue();
+            }
+
             if (index > dialogueContent.Length)
             {
                 Debug.Log("Error; index to long");
