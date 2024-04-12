@@ -26,8 +26,9 @@ public class Dialogscript : MonoBehaviour
     void Awake()
     {
         nextButton = GetComponentInChildren<Button>();
-        dialogueText = GetComponentInChildren<TMP_Text>();
-
+        //dialogueText = GetComponentInChildren<TMP_Text>();
+        dialogueText = this.transform.Find("Scroll View/Viewport/Content").gameObject.GetComponent<TMP_Text>();
+        Debug.Log(dialogueText.name);
         nextButton.onClick.AddListener(DialogueButton);
     }
 
