@@ -8,7 +8,7 @@ public class Dialogscript : MonoBehaviour
 {
 
     private Button nextButton;
-    private TMP_Text dialogueText;
+    public TMP_Text dialogueText;
     public GameObject playerObject;
     private int dialogueIndex = 0;
 
@@ -27,7 +27,7 @@ public class Dialogscript : MonoBehaviour
     {
         nextButton = GetComponentInChildren<Button>();
         //dialogueText = GetComponentInChildren<TMP_Text>();
-        dialogueText = this.transform.Find("Scroll View/Viewport/Content").gameObject.GetComponent<TMP_Text>();
+        //dialogueText = this.transform.Find("Content").gameObject.GetComponent<TMP_Text>();
         Debug.Log(dialogueText.name);
         nextButton.onClick.AddListener(DialogueButton);
     }
