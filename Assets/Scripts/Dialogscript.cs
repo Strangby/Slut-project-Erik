@@ -10,7 +10,9 @@ public class Dialogscript : MonoBehaviour
     private Button nextButton;
     public TMP_Text dialogueText;
     public GameObject playerObject;
+    public GameObject gameMaster;
     private int dialogueIndex = 0;
+    public bool startClassMatters;
 
     [TextArea(15, 20)]
     [SerializeField] private string[] dialogueContent;
@@ -25,16 +27,27 @@ public class Dialogscript : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        if (gameMaster == null)
+        {
+            gameMaster = GameObject.Find("GameManager");
+        }
+        
+        
+        
         nextButton = GetComponentInChildren<Button>();
         //dialogueText = GetComponentInChildren<TMP_Text>();
         //dialogueText = this.transform.Find("Content").gameObject.GetComponent<TMP_Text>();
         Debug.Log(dialogueText.name);
         nextButton.onClick.AddListener(DialogueButton);
+
+        
     }
 
     // This code is called every time the object is enabled
     void OnEnable()
     {
+        
+
         if (dialogueContent.Length <= 0)
         {
             Debug.Log("ERROR: no dialogue content");
@@ -68,6 +81,11 @@ public class Dialogscript : MonoBehaviour
 
     private void NextLine()
     {
+        if (startClassMatters == true)
+            {
+                index = gameMaster.GetComponent<Gamemaster>().startclass;
+            }
+
         Debug.Log("This object is " + transform.name + " and Index is" + index);
         if (index != 0) //Index används bara om man spelar upp ett meddelande.
         {

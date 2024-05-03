@@ -33,4 +33,9 @@ public class Gamemaster : MonoBehaviour
         relDPP += DPP;
         relPEN += PEN;
     }
+
+    public void SetClass(int c_value)
+    {
+        startclass = c_value;
+    }
 }

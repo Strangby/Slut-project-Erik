@@ -128,6 +128,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6932086491494066913, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
   m_PrefabInstance: {fileID: 8947766712766715438}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1252544472 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2686327977255845868, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
+  m_PrefabInstance: {fileID: 8947766712766715438}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1309141049
 GameObject:
   m_ObjectHideFlags: 0
@@ -422,6 +427,34 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -154.3
       objectReference: {fileID: 0}
+    - target: {fileID: 3831689354234833545, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
+      propertyPath: m_Size
+      value: 0.21602269
+      objectReference: {fileID: 0}
+    - target: {fileID: 3831689354234833545, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
+      propertyPath: m_Value
+      value: 0.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846865533821237934, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5553961820193443216, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5553961820193443216, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5553961820193443216, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5553961820193443216, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6932086491494066913, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -615,6 +648,42 @@ PrefabInstance:
         Peoples Party (DPP)|DPP vote][$vote1 to 3]]\r\n\r\n[[The Party of Empyrian
         Nationalists (PEN)|PEN vote][$vote1 to 4]]\r\n\r\n[[A different party|Different
         party][$vote1 to 5]]\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745155338852456388, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745155338852456388, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745155338852456388, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7904005406216100174, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 2150
+      objectReference: {fileID: 0}
+    - target: {fileID: 7904005406216100174, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8637620881471158066, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8637620881471158066, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8637620881471158066, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1252544472}
+    - target: {fileID: 8637620881471158066, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
