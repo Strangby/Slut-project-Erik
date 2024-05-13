@@ -2487,8 +2487,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -207, y: -94}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -215, y: -194.50824}
+  m_SizeDelta: {x: 160, y: 19.0165}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &884546660
 MonoBehaviour:
@@ -2596,11 +2596,84 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 884546658}
   m_CullTransparentMesh: 1
+--- !u!1 &912554238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 912554239}
+  - component: {fileID: 912554240}
+  m_Layer: 5
+  m_Name: PEN
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &912554239
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912554238}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1494262362}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &912554240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912554238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 089407e825a84124c922a5bb278b6252, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PartySupport: 05000000f6fffffffbffffff0a000000
+  Gamemaster: {fileID: 0}
 --- !u!1 &959435172 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1714267781569371461, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
   m_PrefabInstance: {fileID: 1179717483}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &959435174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 959435172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b9962020439a2b41bbb031fc6e365a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Gamemaster: {fileID: 0}
+  NextPart: {fileID: 0}
+  Button1: {fileID: 1804429096}
+  Button2: {fileID: 450032967}
+  Button3: {fileID: 1738690007}
+  Button4: {fileID: 600676326}
+  Activate:
+  - {fileID: 1277591723}
+  - {fileID: 1891821208}
+  - {fileID: 1529884021}
+  - {fileID: 912554238}
 --- !u!1 &959534198
 GameObject:
   m_ObjectHideFlags: 0
@@ -3172,15 +3245,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 159480042134602075, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 159480042134602075, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 159480042134602075, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.85106385
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1714267781569371461, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_Name
@@ -3188,7 +3261,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1714267781569371461, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3831689354234833545, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_Size
@@ -3273,6 +3346,10 @@ PrefabInstance:
     - target: {fileID: 6932086491494066913, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7506906652040083302, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
+      propertyPath: Disablebutton
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7506906652040083302, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: dialogueContent.Array.data[0]
@@ -3368,15 +3445,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7745155338852456388, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7745155338852456388, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7745155338852456388, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -17
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7904005406216100174, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_SizeDelta.y
@@ -3386,6 +3463,9 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 290278746902298329, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6932086491494066913, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1494262362}
     - targetCorrespondingSourceObject: {fileID: 7904005406216100174, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1804429095}
@@ -3398,7 +3478,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7904005406216100174, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 600676325}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1714267781569371461, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 959435174}
   m_SourcePrefab: {fileID: 100100000, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
 --- !u!1 &1198053695
 GameObject:
@@ -3742,6 +3825,56 @@ Transform:
   - {fileID: 1669341499}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1277591723
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1277591724}
+  - component: {fileID: 1277591725}
+  m_Layer: 5
+  m_Name: UPE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1277591724
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277591723}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1494262362}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1277591725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277591723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 089407e825a84124c922a5bb278b6252, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PartySupport: 0a000000fbfffffffbffffff05000000
+  Gamemaster: {fileID: 0}
 --- !u!114 &1288932401 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 284790833860933481, guid: aae2632e9304003438f21f01ddfc6ffd, type: 3}
@@ -4126,6 +4259,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1475780842}
   m_CullTransparentMesh: 1
+--- !u!1 &1494262361
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1494262362}
+  m_Layer: 5
+  m_Name: Reputation Change
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1494262362
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494262361}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1277591724}
+  - {fileID: 1891821209}
+  - {fileID: 1529884022}
+  - {fileID: 912554239}
+  m_Father: {fileID: 475547465}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1496609970
 GameObject:
   m_ObjectHideFlags: 0
@@ -4259,6 +4431,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1496609970}
   m_CullTransparentMesh: 1
+--- !u!1 &1529884021
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1529884022}
+  - component: {fileID: 1529884023}
+  m_Layer: 5
+  m_Name: DPP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1529884022
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1529884021}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1494262362}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1529884023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1529884021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 089407e825a84124c922a5bb278b6252, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PartySupport: fbffffff050000000a000000fbffffff
+  Gamemaster: {fileID: 0}
 --- !u!1 &1530838152
 GameObject:
   m_ObjectHideFlags: 0
@@ -4278,7 +4500,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1530838153
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4354,6 +4576,7 @@ MonoBehaviour:
   playerObject: {fileID: 0}
   gameMaster: {fileID: 0}
   startClassMatters: 0
+  Disablebutton: 0
   dialogueContent:
   - 'Welcome to my game!
 
@@ -5289,6 +5512,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1863139539}
   m_CullTransparentMesh: 1
+--- !u!1 &1891821208
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1891821209}
+  - component: {fileID: 1891821210}
+  m_Layer: 5
+  m_Name: PSE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1891821209
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891821208}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1494262362}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1891821210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891821208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 089407e825a84124c922a5bb278b6252, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PartySupport: fbffffff0a00000005000000f6ffffff
+  Gamemaster: {fileID: 0}
 --- !u!1 &1912272828
 GameObject:
   m_ObjectHideFlags: 0
@@ -5551,117 +5824,117 @@ PrefabInstance:
       propertyPath: dialogueContent.Array.data[0]
       value: 'Year 1922
 
-        
 
-        In the past year the country has been
-        seeing a few improvments for the lower and middle classes under the leadership
-        of general Rudolf.
 
-        
+        In the past year the country has been seeing a
+        few improvments for the lower and middle classes under the leadership of
+        general Rudolf.
 
-        The general has lowered taxes for
-        the lower and middle classes while raising it for the higher classes due
-        to the uneven taxes of the different classes.
 
-        
 
-        This has
-        helped your family to save up a bit more money.
+        The general has lowered taxes for the lower and
+        middle classes while raising it for the higher classes due to the uneven
+        taxes of the different classes.
 
-        
 
-        The
-        general has also announced that in the near future the country will transition
-        to a presidential goverment and that elections will begin in 2 years time.
 
-        
+        This has helped your family to
+        save up a bit more money.
 
-        Your
-        family did not really care for the news because they did not think that things
-        would change much for the lower class families. But you were hopeful that
-        there would be changes that helped make it easier to get education and get
-        better jobs becasue of it.
 
-        
 
-        Until then general Rudolf
-        would continue to lead the country until the elections'
+        The general has also announced that
+        in the near future the country will transition to a presidential goverment
+        and that elections will begin in 2 years time.
+
+
+
+        Your family did
+        not really care for the news because they did not think that things would
+        change much for the lower class families. But you were hopeful that there
+        would be changes that helped make it easier to get education and get better
+        jobs becasue of it.
+
+
+
+        Until then general Rudolf would continue to
+        lead the country until the elections'
       objectReference: {fileID: 0}
     - target: {fileID: 7506906652040083302, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: dialogueContent.Array.data[1]
       value: 'Year 1922
 
-        
 
-        In the past year the country has been
-        seeing a few improvments for the lower and middle classes under the leadership
-        of general Rudolf.
 
-        
+        In the past year the country has been seeing a
+        few improvments for the lower and middle classes under the leadership of
+        general Rudolf.
 
-        The general has lowered taxes for
-        the lower and middle classes while raising it for the higher classes due
-        to the uneven taxes of the different classes.
 
-        
 
-        This has
-        helped your family to save up a bit more money.
+        The general has lowered taxes for the lower and
+        middle classes while raising it for the higher classes due to the uneven
+        taxes of the different classes.
 
-        
 
-        The
-        general has also announced that in the near future the country will transition
-        to a presidential goverment and that elections will begin in 2 years time.
 
-        
+        This has helped your family to
+        save up a bit more money.
 
-        This
-        made you and your family celebrate that people from the middle class might
-        finaly get a bigger voice in the running of the country.
 
-        
 
-        Until
-        then general Rudolf would continue to lead the country until the elections'
+        The general has also announced that
+        in the near future the country will transition to a presidential goverment
+        and that elections will begin in 2 years time.
+
+
+
+        This made you and
+        your family celebrate that people from the middle class might finaly get
+        a bigger voice in the running of the country.
+
+
+
+        Until then general
+        Rudolf would continue to lead the country until the elections'
       objectReference: {fileID: 0}
     - target: {fileID: 7506906652040083302, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: dialogueContent.Array.data[2]
       value: 'Year 1922
 
-        
 
-        In the past year the country has been
-        seeing a few improvments for the lower and middle classes under the leadership
-        of general Rudolf.
 
-        
+        In the past year the country has been seeing a
+        few improvments for the lower and middle classes under the leadership of
+        general Rudolf.
 
-        The general has lowered taxes for
-        the lower and middle classes while raising it for the higher classes due
-        to the uneven taxes of the different classes.
 
-        
 
-        This has
-        put your family in a tough position.
+        The general has lowered taxes for the lower and
+        middle classes while raising it for the higher classes due to the uneven
+        taxes of the different classes.
 
-        
 
-        The general has
-        also announced that in the near future the country will transition to a presidential
-        goverment and that elections will begin in 2 years time.
 
-        
+        This has put your family in a
+        tough position.
 
-        This
-        made your father and other high class familys a little worried that they
-        would lose a lot of money and influence from this.
 
-        
 
-        Until
-        then general Rudolf would continue to lead the country until the elections'
+        The general has also announced that in the near
+        future the country will transition to a presidential goverment and that elections
+        will begin in 2 years time.
+
+
+
+        This made your father and other high
+        class familys a little worried that they would lose a lot of money and influence
+        from this.
+
+
+
+        Until then general Rudolf would continue to lead the
+        country until the elections'
       objectReference: {fileID: 0}
     - target: {fileID: 7745155338852456388, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_AnchorMax.x

@@ -13,7 +13,8 @@ public class Dialogscript : MonoBehaviour
     public GameObject gameMaster;
     private int dialogueIndex = 0;
     public bool startClassMatters;
-
+    public bool Disablebutton;
+    
     [TextArea(15, 20)]
     [SerializeField] private string[] dialogueContent;
     public int index = 0;
@@ -33,12 +34,15 @@ public class Dialogscript : MonoBehaviour
         }
         
         
+        if (Disablebutton == false)
+        {
+            nextButton = GetComponentInChildren<Button>();
+            //dialogueText = GetComponentInChildren<TMP_Text>();
+            //dialogueText = this.transform.Find("Content").gameObject.GetComponent<TMP_Text>();
+            Debug.Log(dialogueText.name);
+            nextButton.onClick.AddListener(DialogueButton);
+        }
         
-        nextButton = GetComponentInChildren<Button>();
-        //dialogueText = GetComponentInChildren<TMP_Text>();
-        //dialogueText = this.transform.Find("Content").gameObject.GetComponent<TMP_Text>();
-        Debug.Log(dialogueText.name);
-        nextButton.onClick.AddListener(DialogueButton);
 
         
     }

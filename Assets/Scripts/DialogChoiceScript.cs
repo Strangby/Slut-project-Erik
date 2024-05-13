@@ -6,15 +6,19 @@ using TMPro;
 
 public class DialogChoiceScript : MonoBehaviour
 {
-
+    public GameObject Gamemaster;
+    public GameObject NextPart;
     public Button Button1;
     public Button Button2;
     public Button Button3;
     public Button Button4;
+    public GameObject[] Activate = new GameObject[4];
 
     // Start is called before the first frame update
     void Start()
     {
+        Gamemaster = GameObject.Find("Gamemaster");
+
         if (Button1 != null)
         {
             Button1.onClick.AddListener(ButtonOne);
@@ -41,18 +45,25 @@ public class DialogChoiceScript : MonoBehaviour
 
     public void ButtonOne()
     {
-
+        ButtonChoice(0);
     }
     public void ButtonTwo()
     {
-
+        ButtonChoice(1);
     }
     public void ButtonThree()
     {
-
+        ButtonChoice(2);
     }
     public void ButtonFour()
     {
-
+        ButtonChoice(3);
+    }
+    private void ButtonChoice(int exes)
+    {
+        Activate[exes].SetActive(true);
+        NextPart.SetActive(true);
+        NextPart.GetComponent<Dialogscript>().index = exes + 1;
+        gameObject.SetActive(false);
     }
 }
