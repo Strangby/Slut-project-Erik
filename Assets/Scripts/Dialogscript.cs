@@ -42,9 +42,6 @@ public class Dialogscript : MonoBehaviour
             Debug.Log(dialogueText.name);
             nextButton.onClick.AddListener(DialogueButton);
         }
-        
-
-        
     }
 
     // This code is called every time the object is enabled
@@ -74,7 +71,6 @@ public class Dialogscript : MonoBehaviour
             {
                 StartDialogue();
             }
-
         }
     }
 
@@ -107,7 +103,6 @@ public class Dialogscript : MonoBehaviour
                 
                 dialogueText.text = dialogueContent[index -1];
             }
-            
         }
         else
         {
@@ -121,8 +116,6 @@ public class Dialogscript : MonoBehaviour
                 EndDialogue();
             }
         }
-
-        
     }
 
     public void DialogueButton()

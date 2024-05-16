@@ -38,5 +38,4 @@ public class City : MonoBehaviour
     {
         NoInt = !NoInt;
     }
-    
 }

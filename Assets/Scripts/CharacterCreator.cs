@@ -46,7 +46,6 @@ public class CharacterCreator : MonoBehaviour
             GameManager.GetComponent<Gamemaster>().startclass = 1;
             ActivateDialoguePanel(1);
         }
-        
     }
 
     public void ButtonTwo()
@@ -82,8 +81,6 @@ public class CharacterCreator : MonoBehaviour
                 gameObject.SetActive(false);
             }
         }
-        
-
     }
 
     private void ActivateDialoguePanel(int value)
@@ -97,6 +94,5 @@ public class CharacterCreator : MonoBehaviour
         }
         NextDialog.SetActive(true);
         gameObject.SetActive(false);
-
     }
 }
