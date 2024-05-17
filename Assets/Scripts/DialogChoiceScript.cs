@@ -17,7 +17,7 @@ public class DialogChoiceScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Gamemaster = GameObject.Find("Gamemaster");
+        Gamemaster = GameObject.Find("GameManager");
 
         if (Button1 != null)
         {
@@ -64,6 +64,5 @@ public class DialogChoiceScript : MonoBehaviour
         Activate[exes].SetActive(true);
         NextPart.SetActive(true);
         NextPart.GetComponent<Dialogscript>().index = exes + 1;
-        gameObject.SetActive(false);
     }
 }
