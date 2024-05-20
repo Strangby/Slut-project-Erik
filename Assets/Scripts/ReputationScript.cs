@@ -18,14 +18,15 @@ public class ReputationScript : MonoBehaviour
 
     void OnEnable()
     {
-        if(SetupComplete == false)
+        if(SetupComplete == true)
         {
             //Villkor med en boolean
             Debug.Log("code running");
             Gamemaster.GetComponent<Gamemaster>().Reputation(PartySupport[0], PartySupport[1], PartySupport[2], PartySupport[3]);
             parentDialogue.SetActive(false);
-            bool SetupComplete = true;
+            
             //Boolean blir sann här
         }
+        SetupComplete = true;
     }
 }
