@@ -97,7 +97,7 @@ public class WriteToFile : MonoBehaviour
     }
 
    
-    private void OnDestroy() {
+    private void OnApplicationQuit() {
         
         WriteToTxtFile();
     }
