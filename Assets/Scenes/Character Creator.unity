@@ -164,7 +164,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -260, y: -380}
+  m_AnchoredPosition: {x: -260, y: -500}
   m_SizeDelta: {x: 80, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &9557310
@@ -817,44 +817,43 @@ PrefabInstance:
       value: 'A week has now passed since the voting concluded and they will now
         give the results of the 4th election of Empyria.
 
-        
 
-        You
-        sit by the radio and listen to the announcer begin.
 
-        
+        You sit by the
+        radio and listen to the announcer begin.
 
-        "Hello
-        to all of you who are listening to this broadcast, today we will announe
-        the election results." You feel anxious about the result, hoping that your
-        candidate won.
 
-        
 
-        "The winner of the 1936 election is..."
-        You feel the suspense building.
+        "Hello to all of you
+        who are listening to this broadcast, today we will announe the election results."
+        You feel anxious about the result, hoping that your candidate won.
 
-        
 
-        "Thomas Porter the incumbent
-        president."
 
-        
+        "The
+        winner of the 1936 election is..." You feel the suspense building.
+
+
+
+        "Thomas
+        Porter the incumbent president."
+
+
 
         "The vote percentage is as follows..."
 
-        
+
 
         "The
         UPE got 22% of the votes, the PSE got 17% of the votes, the DPP got 37% of
         the votes and finally the PEN got 22% of the votes. The rest went to minor
         parties that did not pass the 5% threshold."
 
-        
 
-        You turn
-        of the radio and go about your day wondering what will happen to the country
-        in the next 4 years.'
+
+        You turn of the radio
+        and go about your day wondering what will happen to the country in the next
+        4 years.'
       objectReference: {fileID: 0}
     - target: {fileID: 7745155338852456388, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_AnchorMax.x
@@ -870,7 +869,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7904005406216100174, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 120
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 8637620881471158066, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_VerticalScrollbar
@@ -1122,7 +1121,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 316292433}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.5
+  m_Size: 0.5833333
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1483,7 +1482,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -260, y: -630}
+  m_AnchoredPosition: {x: -260, y: -800}
   m_SizeDelta: {x: 80, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &150484422
@@ -1826,7 +1825,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1917428360}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.46666667
+  m_Size: 0.5
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2392,7 +2391,7 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1496727315}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.25531918}
+  m_AnchorMin: {x: 0, y: 0.4166667}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -2601,7 +2600,7 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 548359314}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0.4166667}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -3010,7 +3009,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -240, y: -210}
+  m_AnchoredPosition: {x: -240, y: -260}
   m_SizeDelta: {x: 120, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &372914762
@@ -3566,7 +3565,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -14.4916, y: -140}
+  m_AnchoredPosition: {x: -8, y: -175}
   m_SizeDelta: {x: 571.0168, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &424845202
@@ -4777,7 +4776,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -260, y: -420}
+  m_AnchoredPosition: {x: -260, y: -540}
   m_SizeDelta: {x: 80, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &599110597
@@ -5156,7 +5155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -260, y: -740}
+  m_AnchoredPosition: {x: -260, y: -970}
   m_SizeDelta: {x: 80, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &627720403
@@ -5264,7 +5263,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 159480042134602075, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.6315789
+      value: 0.6956522
       objectReference: {fileID: 0}
     - target: {fileID: 1714267781569371461, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_Name
@@ -5366,89 +5365,88 @@ PrefabInstance:
       propertyPath: dialogueContent.Array.data[0]
       value: 'Year 1932
 
-        
 
-        Things went terribly wrong for the country
-        during president Morners second term.
 
-        
+        Things went terribly wrong for the country during
+        president Morners second term.
 
-        First there was
-        a scandal were the president was caught cheating on his wife by having an
-        intimate relation with his secretary.
 
-        
 
-        Then there was
-        a recession which has been devestating for the presidents popularity.
+        First there was a scandal were
+        the president was caught cheating on his wife by having an intimate relation
+        with his secretary.
 
-        
 
-        And
-        finally there was a diplomatic incident between Empyria and one of her neighbours
-        Sallaran where there was a discussion of a trade agreement but the talks
-        broke down due to the president insulting the President of Sallaran because
-        they could not agree on some prices of trade.
 
-        
+        Then there was a recession which has been
+        devestating for the presidents popularity.
 
-        With these
-        events the UPE has turned on president Morner and will no longer support
-        him as a leader.
 
-        
 
-        The upcoming election is now uncertain,
-        with the recent happinings there is a high probability of a new president
-        coming in to office, perhaps even from a different party.
+        And finally there was
+        a diplomatic incident between Empyria and one of her neighbours Sallaran
+        where there was a discussion of a trade agreement but the talks broke down
+        due to the president insulting the President of Sallaran because they could
+        not agree on some prices of trade.
 
-        
+
+
+        With these events the UPE has
+        turned on president Morner and will no longer support him as a leader.
+
+
 
         The
-        main issue of this election is fixing the recession
+        upcoming election is now uncertain, with the recent happinings there is a
+        high probability of a new president coming in to office, perhaps even from
+        a different party.
 
-        
 
-        The
-        United Party of Empyria UPE belives that the country will recover from the
-        recession by continuing the current economic policy of intervention.
 
-        
+        The main issue of this election is fixing the
+        recession
 
-        The
-        Party of Socialist Empyria PSE belives now is the time to move on from intervention
-        to a planned economy so that the state can controll everything in the economy
-        to prevent this from happening again.
 
-        
 
-        The Democratic
-        Peoples Party DPP belives now is the time to move on from intervention to
-        Laissez-faire so that the goverment can''t destroy the economy any further.
+        The United Party of Empyria UPE belives that the country
+        will recover from the recession by continuing the current economic policy
+        of intervention.
 
-        
 
-        The
-        Party of Empyrian Nationalists PEN belives now is the time to move on from
-        intervention to a planned economy so that the state can controll everything
-        in the economy to prevent this from happening again.
 
-        
+        The Party of Socialist Empyria PSE belives now
+        is the time to move on from intervention to a planned economy so that the
+        state can controll everything in the economy to prevent this from happening
+        again.
 
-        The
-        candidates for the presidency are the same barring the  UPE for they have
-        now switched to a 62 year old man named Chris Fester who was born in the
-        middle class and was president Morners main rival within the UPE for the
-        presidency. He was the only chance the UPE had in order to win the election
-        after the scandal and the recession.
 
-        
 
-        Again you must
-        cast a vote on one of these 4 parties, the voting method remains the same
-        as last time, so choose wisely.
+        The Democratic Peoples Party DPP belives now is the time
+        to move on from intervention to Laissez-faire so that the goverment can''t
+        destroy the economy any further.
 
-        
+
+
+        The Party of Empyrian Nationalists
+        PEN belives now is the time to move on from intervention to a planned economy
+        so that the state can controll everything in the economy to prevent this
+        from happening again.
+
+
+
+        The candidates for the presidency are the
+        same barring the  UPE for they have now switched to a 62 year old man named
+        Chris Fester who was born in the middle class and was president Morners main
+        rival within the UPE for the presidency. He was the only chance the UPE had
+        in order to win the election after the scandal and the recession.
+
+
+
+        Again
+        you must cast a vote on one of these 4 parties, the voting method remains
+        the same as last time, so choose wisely.
+
+
 
         Pick a card, any card...'
       objectReference: {fileID: 0}
@@ -5466,7 +5464,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7904005406216100174, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 600
+      value: 800
       objectReference: {fileID: 0}
     - target: {fileID: 7904005406216100174, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -5532,7 +5530,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -260, y: -780}
+  m_AnchoredPosition: {x: -260, y: -1010}
   m_SizeDelta: {x: 80, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &648376276
@@ -6055,7 +6053,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -260, y: -670}
+  m_AnchoredPosition: {x: -260, y: -840}
   m_SizeDelta: {x: 80, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &726599449
@@ -6586,7 +6584,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -260, y: -300}
+  m_AnchoredPosition: {x: -260, y: -420}
   m_SizeDelta: {x: 80, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &823860763
@@ -7294,7 +7292,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -260, y: -340}
+  m_AnchoredPosition: {x: -260, y: -460}
   m_SizeDelta: {x: 80, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &891219860
@@ -8170,7 +8168,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -260, y: -590}
+  m_AnchoredPosition: {x: -260, y: -760}
   m_SizeDelta: {x: 80, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &989948095
@@ -8425,7 +8423,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -260, y: -550}
+  m_AnchoredPosition: {x: -260, y: -720}
   m_SizeDelta: {x: 80, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1023054909
@@ -9550,15 +9548,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 159480042134602075, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 159480042134602075, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 159480042134602075, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 0.8541667
       objectReference: {fileID: 0}
     - target: {fileID: 1714267781569371461, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_Name
@@ -9566,7 +9564,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1714267781569371461, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3831689354234833545, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_Size
@@ -9660,227 +9658,225 @@ PrefabInstance:
       propertyPath: dialogueContent.Array.data[0]
       value: 'Year 1928
 
-        
 
-        4 years have passed and the time for
-        the next election is here.
 
-        
+        4 years have passed and the time for the next
+        election is here.
 
-        During those years president
-        Morner has held his promise of a interventionist economic policy where the
-        goverment funded some starting businesses to help them get started, the taxes
-        for the low class, middle class and high class were all lowered to 10% in
-        order to try and make things more fair for everyone, and while the people
-        enjoyed this the country did not see many improvments to its declining infrastructure
+
+
+        During those years president Morner has held
+        his promise of a interventionist economic policy where the goverment funded
+        some starting businesses to help them get started, the taxes for the low
+        class, middle class and high class were all lowered to 10% in order to try
+        and make things more fair for everyone, and while the people enjoyed this
+        the country did not see many improvments to its declining infrastructure
         and its different institutions due to the lack of funds.
 
-        
+
+
+        The crafting
+        off a constitution was a success and the country now has had its first assembly
+        and supreme court according to what the UPE had promised in the first election.
+
+
 
         The
-        crafting off a constitution was a success and the country now has had its
-        first assembly and supreme court according to what the UPE had promised in
-        the first election.
+        UPE also kept its promise on making the king a figure of state while not
+        having much power to do any governing except during emergencies.
 
-        
 
-        The UPE also kept its promise on
-        making the king a figure of state while not having much power to do any governing
-        except during emergencies.
-
-        
-
-        The people have been mostly
-        happy with the current goverment and analysts say that the United Party of
-        Empyria can easily win another term as long as they do not mess anything
-        up while campaigning.
-
-        
-
-        The campaigning of the different
-        parties are mostly the same as last time with the exeption of 2 things.
-
-        
 
         The
-        candidates that are chosen by their parties must now have a running mate
-        that upon victory in the elections will become the vice president of the
-        country.
+        people have been mostly happy with the current goverment and analysts say
+        that the United Party of Empyria can easily win another term as long as they
+        do not mess anything up while campaigning.
 
-        
 
-        This is a new thing that was introduced in
-        the new constitution that says that if a unfortunate event happens to the
-        president and they pass away before their term is over the vice president
+
+        The campaigning of
+        the different parties are mostly the same as last time with the exeption
+        of 2 things.
+
+
+
+        The candidates that are chosen by their parties must
+        now have a running mate that upon victory in the elections will become the
+        vice president of the country.
+
+
+
+        This is a new thing that was introduced
+        in the new constitution that says that if a unfortunate event happens to
+        the president and they pass away before their term is over the vice president
         shall take up the mantle as president until the end of the previous presidents
         term.
 
-        
 
-        The issues are now also mostly different, the
-        parties are adressing them in their speeches and campaigning on how to effectively
-        solve them.
 
-        
+        The issues are now also mostly different, the parties are
+        adressing them in their speeches and campaigning on how to effectively solve
+        them.
+
+
 
         The issues are as follows:
 
-        
 
-        The
-        economy or more specificaly the budget proritising on the different institutions
-        of the country such as the army, education, healthcare and security.
 
-        
+        The economy or more
+        specificaly the budget proritising on the different institutions of the country
+        such as the army, education, healthcare and security.
+
+
 
         Foreign
         policy
 
-        
+
 
         Immigration
 
-        
 
-        The parties
-        opinion on budget allocation:
 
-        
+        The parties opinion on budget allocation:
 
-        The United Party of Empyria
-        UPE wishes to maintain the current budget for the institutions to allow the
-        economy to grow more before increasing any spending on any one of the institutions.
 
-        
 
         The
-        Party of Socialist Empyria PSE wishes to increase the spending on healtcare
-        and education in order to give the people a better chance to survive in this
-        world.
+        United Party of Empyria UPE wishes to maintain the current budget for the
+        institutions to allow the economy to grow more before increasing any spending
+        on any one of the institutions.
 
-        
 
-        The Democratic Peoples Party DPP wishes to increrase
-        spending on education to make sure that children and younger adults can get
-        better jobs after completing school.
 
-        
+        The Party of Socialist Empyria
+        PSE wishes to increase the spending on healtcare and education in order to
+        give the people a better chance to survive in this world.
 
-        The Party of Empyrian
-        Nationalists PEN wishes to increase spending on security and army in order
-        to keep the country safer from internal and external threats.
 
-        
 
         The
-        parties opinion on Foreign policy:
+        Democratic Peoples Party DPP wishes to increrase spending on education to
+        make sure that children and younger adults can get better jobs after completing
+        school.
 
-        
 
-        The United Party
-        of Empyria UPE belives that Empyria should only make trade agreements with
-        neighboring coutries but not any alliences.
 
-        
+        The Party of Empyrian Nationalists PEN wishes to increase
+        spending on security and army in order to keep the country safer from internal
+        and external threats.
 
-        The Party
-        of Socialist Empyria PSE belives that Empyria should align itself with the
-        communist superpower in the east, the Cambelen Union.
 
-        
 
-        The
-        Democratic Peoples Party DPP belives that Empyria should align itself with
-        the democratic superpower in the west, Darmas.
+        The parties opinion on Foreign policy:
 
-        
 
-        The Party
-        of Empyrian Nationalists PEN belives that Empyria should align itself with
-        nobody and should avoid matters of world affairs unless it concerns Empyria.
-
-        
 
         The
-        parties opinion on Immigration:
+        United Party of Empyria UPE belives that Empyria should only make trade agreements
+        with neighboring coutries but not any alliences.
 
-        
 
-        The United Party of
-        Empyria UPE belives that we should only accept a limited amount of immigrants
-        in order to protect the citizens of Empyria from losing their jobs to new
-        arrivals.
-
-        
-
-        The Party of Socialist Empyria PSE belives
-        that we should open up our borders for more immigrants to join the country
-        and give them a helping hand in them settling in to our country.
-
-        
-
-        The
-        Democratic Peoples Party DPP has the same opinion as the PSE but that we
-        should still make a few restrictions so that the country dosen''t get overflooded
-        with more immigrants than it can handle.
-
-        
 
         The Party of
-        Empyrian Nationalists PEN belives that Empyria should have no immigrants
-        and that non Empyrians already in the country should be sent out of the country.
+        Socialist Empyria PSE belives that Empyria should align itself with the communist
+        superpower in the east, the Cambelen Union.
 
-        
+
+
+        The Democratic Peoples
+        Party DPP belives that Empyria should align itself with the democratic superpower
+        in the west, Darmas.
+
+
+
+        The Party of Empyrian Nationalists PEN belives
+        that Empyria should align itself with nobody and should avoid matters of
+        world affairs unless it concerns Empyria.
+
+
+
+        The parties opinion
+        on Immigration:
+
+
+
+        The United Party of Empyria UPE belives that we
+        should only accept a limited amount of immigrants in order to protect the
+        citizens of Empyria from losing their jobs to new arrivals.
+
+
 
         The
-        candidates for the parties are the same as the last election.
+        Party of Socialist Empyria PSE belives that we should open up our borders
+        for more immigrants to join the country and give them a helping hand in them
+        settling in to our country.
 
-        
 
-        For
-        the UPE the incumbent president Morner is running for a second term.
 
-        
+        The Democratic Peoples Party DPP has
+        the same opinion as the PSE but that we should still make a few restrictions
+        so that the country dosen''t get overflooded with more immigrants than it
+        can handle.
 
-        For
-        the PSE Rikard Melborne is running again thanks to his good speaking skills.
 
-        
 
-        For
-        the DPP Thomas Porter thanks to his following of people that supports him.
+        The Party of Empyrian Nationalists PEN belives that
+        Empyria should have no immigrants and that non Empyrians already in the country
+        should be sent out of the country.
 
-        
+
+
+        The candidates for the parties
+        are the same as the last election.
+
+
+
+        For the UPE the incumbent president
+        Morner is running for a second term.
+
+
+
+        For the PSE Rikard Melborne
+        is running again thanks to his good speaking skills.
+
+
+
+        For the DPP
+        Thomas Porter thanks to his following of people that supports him.
+
+
 
         For
         the PEN Adolf Schmidt who is the most famous of the party and has the best
         chance of them to win.
 
-        
 
-        So now once again you must cast
-        a vote on one of these 4 parties, the voting method is still the same as
-        last time, so choose wisely.
 
-        
+        So now once again you must cast a vote
+        on one of these 4 parties, the voting method is still the same as last time,
+        so choose wisely.
+
+
 
         Pick a card, any card...'
       objectReference: {fileID: 0}
     - target: {fileID: 7745155338852456388, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7745155338852456388, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7745155338852456388, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: -17
       objectReference: {fileID: 0}
     - target: {fileID: 7904005406216100174, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 2100
+      value: 2050
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -10765,29 +10761,29 @@ PrefabInstance:
       value: 'About a week has passed and now they will declare the winner of the
         election on the radio.
 
-        
 
-        "And now i will announce the
-        results of the second election of Empyria." You and your family are pretty
-        sure who the winner is.
 
-        
+        "And now i will announce the results of
+        the second election of Empyria." You and your family are pretty sure who
+        the winner is.
 
-        "The winner of the election
-        is president Morner!"
 
-        
 
-        "The results were as follows,
-        The UPE won with 52% of the votes, the PSE had 12% of the votes, the DPP
-        had 20% fo the votes, the PEN had 10% of the votes, the rest went to smaller
-        parties that did not pass the voter threshold. The assembly seats will be
-        split up acording to these results." The announcer informs.
+        "The winner of the election is president Morner!"
 
-        
 
-        The
-        announcement ends and you and your family go about their business.'
+
+        "The
+        results were as follows, The UPE won with 52% of the votes, the PSE had 12%
+        of the votes, the DPP had 20% fo the votes, the PEN had 10% of the votes,
+        the rest went to smaller parties that did not pass the voter threshold. The
+        assembly seats will be split up acording to these results." The announcer
+        informs.
+
+
+
+        The announcement ends and you and your family go about
+        their business.'
       objectReference: {fileID: 0}
     - target: {fileID: 7745155338852456388, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_AnchorMax.x
@@ -10803,7 +10799,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7904005406216100174, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -8.2909
+      value: 46.0546
       objectReference: {fileID: 0}
     - target: {fileID: 8637620881471158066, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_VerticalScrollbar
@@ -11005,7 +11001,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -220, y: -200}
+  m_AnchoredPosition: {x: -220, y: -270}
   m_SizeDelta: {x: 150, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1250966565
@@ -11431,42 +11427,41 @@ PrefabInstance:
         are going to be presented on the radio and you and your family are listening
         intently to the guy on the radio as he is about to give the results.
 
-        
+
 
         "And
         now i shall give the results of the first Empyrian election and welcome in
         the new goverment..." a quiet moment comes like the whole nation is holding
         their breath before he continues.
 
-        
 
-        "The winning party
-        of the first Empyrian election is..." He grows quiet for a moment while the
-        suspense is building.''
 
-        
+        "The winning party of the first
+        Empyrian election is..." He grows quiet for a moment while the suspense is
+        building.''
 
-        "The United Party of Empyria!"
-        He exclaims.
 
-        
 
-        "The results were as follows, the UPE won
-        41% of the votes, the PSE had 14% of the votes, the DPP had 26% of the votes
-        and finally the PEN had 11% of the votes the rest of the votes went to smaller
-        parties who did not pass the voter threshold that general Rudolf placed on
-        this election." the announcer informed.
+        "The United Party of Empyria!" He exclaims.
 
-        
 
-        The announcer
-        then procceded to say that the UPE is going to hold a victory speech in the
-        capital in 2 days time.
 
-        
+        "The
+        results were as follows, the UPE won 41% of the votes, the PSE had 14% of
+        the votes, the DPP had 26% of the votes and finally the PEN had 11% of the
+        votes the rest of the votes went to smaller parties who did not pass the
+        voter threshold that general Rudolf placed on this election." the announcer
+        informed.
 
-        Your family decided to go and
-        be there for the speech.'
+
+
+        The announcer then procceded to say that the UPE is
+        going to hold a victory speech in the capital in 2 days time.
+
+
+
+        Your
+        family decided to go and be there for the speech.'
       objectReference: {fileID: 0}
     - target: {fileID: 7745155338852456388, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_AnchorMax.x
@@ -11482,7 +11477,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7904005406216100174, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 350
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 8637620881471158066, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_VerticalScrollbar
@@ -12390,40 +12385,39 @@ PrefabInstance:
         that a few were DPP supporters thanks to their flags that had the DPP symbol
         on it.
 
-        
 
-        Soon after your arrival James Morner appeared
-        at the speaking podium and started his speech.
 
-        
+        Soon after your arrival James Morner appeared at the speaking
+        podium and started his speech.
 
-        "People
-        of Empyria!" He began.
 
-        
 
-        "This is a momentus day for our
-        country in that it will for the first time in its history have an elected
-        body govern over it and make decisions depending on the peoples will." The
-        crowd cheered him.
+        "People of Empyria!" He began.
 
-        
 
-        "We will hold to our promises and
-        implement a economic policy of intervention, with that we will give the people
-        chance to build our economy while the state hold some infulence on what happens
-        with the different businesses so that we do not face a economic crash, and
-        i promise you that we will see the economy grow and prosper which will mean
-        that the people will prosper along side the economy." The crowd is cheering
-        louder.
 
-        
+        "This
+        is a momentus day for our country in that it will for the first time in its
+        history have an elected body govern over it and make decisions depending
+        on the peoples will." The crowd cheered him.
 
-        "In a moment i will go to the palace where i
-        shall officialy be made the first president of Empyria and begin the work
-        of leading our great country."
 
-        
+
+        "We will hold to
+        our promises and implement a economic policy of intervention, with that we
+        will give the people chance to build our economy while the state hold some
+        infulence on what happens with the different businesses so that we do not
+        face a economic crash, and i promise you that we will see the economy grow
+        and prosper which will mean that the people will prosper along side the economy."
+        The crowd is cheering louder.
+
+
+
+        "In a moment i will go to the palace
+        where i shall officialy be made the first president of Empyria and begin
+        the work of leading our great country."
+
+
 
         "So i bid you all goodbye
         and promise you that me and my cabinet will do our best to make the country
@@ -12444,7 +12438,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7904005406216100174, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 400
+      value: 350
       objectReference: {fileID: 0}
     - target: {fileID: 8637620881471158066, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_VerticalScrollbar
@@ -12642,7 +12636,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 311195717}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.7446808
+  m_Size: 0.5833333
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -13292,7 +13286,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1530838153
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15550,7 +15544,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -260, y: -700}
+  m_AnchoredPosition: {x: -260, y: -930}
   m_SizeDelta: {x: 80, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1835147237
@@ -16052,7 +16046,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -260, y: -660}
+  m_AnchoredPosition: {x: -260, y: -890}
   m_SizeDelta: {x: 80, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1860077156
@@ -16487,7 +16481,7 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2010539956}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5333333}
+  m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -17024,7 +17018,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 159480042134602075, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.78787875
+      value: 0.8372093
       objectReference: {fileID: 0}
     - target: {fileID: 1714267781569371461, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_Name
@@ -17126,69 +17120,68 @@ PrefabInstance:
       propertyPath: dialogueContent.Array.data[0]
       value: 'Year 1940
 
-        
+
 
         The country is in a dire situation.
 
-        
+
 
         The
         president has been assassinated and the country has barely managed to avoid
         a war.
 
-        
 
-        It was may 24th 1938 while the president was
-        holding a speech when he got shot in the chest and was taken to the hospital
-        but the doctors were unable to save him due to poor equipment.
 
-        
+        It was may 24th 1938 while the president was holding a
+        speech when he got shot in the chest and was taken to the hospital but the
+        doctors were unable to save him due to poor equipment.
 
-        This
-        then forced vice-president Franklin Deldric to take the mantel of leadership
-        and become the 3rd president of Empyria.
 
-        
 
-        The assassin
-        was caught and under interrogation was found to be from Entaro but denied
-        any connections to the Entaren goverment but there was evidence to prove
-        this false.
+        This then
+        forced vice-president Franklin Deldric to take the mantel of leadership and
+        become the 3rd president of Empyria.
 
-        
 
-        Shortly after this the nation of Entaro
-        started moving their forces towards the border with Empyria.
 
-        
+        The assassin was caught and
+        under interrogation was found to be from Entaro but denied any connections
+        to the Entaren goverment but there was evidence to prove this false.
 
-        The
-        people were angry that someone from Entaro would kill their president and
-        started calling out for war, but before any fighting could commence the Markethian
-        Empire stepped in as a mediator and stopped all chance of war by threatening
-        to join the defending party in the war.
 
-        
 
-        One of the first
-        acts the new president did was to form a official secret service that will
-        have the job of protecting the president from threats, this was unanimously
-        approved by the assembly and supreme court in order to try and prevent anymore
-        presidents from dying in office from non natural means.
+        Shortly
+        after this the nation of Entaro started moving their forces towards the border
+        with Empyria.
 
-        
+
+
+        The people were angry that someone from Entaro would
+        kill their president and started calling out for war, but before any fighting
+        could commence the Markethian Empire stepped in as a mediator and stopped
+        all chance of war by threatening to join the defending party in the war.
+
+
+
+        One
+        of the first acts the new president did was to form a official secret service
+        that will have the job of protecting the president from threats, this was
+        unanimously approved by the assembly and supreme court in order to try and
+        prevent anymore presidents from dying in office from non natural means.
+
+
 
         The
         goverment then built a training center called Jonathan Center that specialize
         in training people to become part of the secret service.
 
-        
+
 
         President
         Deldric also increased the budget for the healthcare in order to make sure
         that hospitals have better equipment to treat patients.
 
-        
+
 
         Before
         president Porters assassination the assembly had been working hard on coming
@@ -17199,66 +17192,65 @@ PrefabInstance:
         were of the Marketh people and the Empyrian people were angry at the Markethian
         Empire.
 
-        
 
-        And this lead to the first major issue of the
-        1940 election:
 
-        
+        And this lead to the first major issue of the 1940 election:
 
-        How to handle the growing unrest among
-        minority groups.
 
-        
 
-        The people are growing angrier with
-        the goverment as more time pass without any solution is made to the problem
-        of minority rights.
+        How
+        to handle the growing unrest among minority groups.
 
-        
 
-        The UPE has said that they will
-        handle the unrest by using the police for the more violent people and promise
-        to work towards a suitable solution on the issue.
 
-        
+        The people
+        are growing angrier with the goverment as more time pass without any solution
+        is made to the problem of minority rights.
+
+
+
+        The UPE has said that
+        they will handle the unrest by using the police for the more violent people
+        and promise to work towards a suitable solution on the issue.
+
+
 
         The
         PSE has said that they are going to meet the peoples demands and make sure
         that there will be a acceptable end to the issue.
 
-        
 
-        The
-        DPP has said that they will be continuing their work towards giving the minority
+
+        The DPP has
+        said that they will be continuing their work towards giving the minority
         groups in Empyria their rights.
 
-        
 
-        The PEN has said that
-        there should not be any minority rights, stating that the Marketh people
-        are in league with the Markethian Empire and they will destroy Empyria from
-        within if a conflict breaks out between Empyria and Markethian Empire.
 
-        
+        The PEN has said that there should
+        not be any minority rights, stating that the Marketh people are in league
+        with the Markethian Empire and they will destroy Empyria from within if a
+        conflict breaks out between Empyria and Markethian Empire.
+
+
 
         The
         other issue of the election is infrastructure, specifically if the goverment
         should focus investments on roads or railroads.
 
-        
 
-        The
-        UPE has said that investing into railroads would be more beneficial for the
-        country because it would increase transportation of goods across the country.
 
-        
+        The UPE has said
+        that investing into railroads would be more beneficial for the country because
+        it would increase transportation of goods across the country.
+
+
 
         The
         PSE has said that building roads would help the people get around the country
         faster and safer, especially for the areas that have almost no roads.
 
-        
+
 
         The
         DPP has said that the construction of roads would be the best option for
@@ -17266,43 +17258,43 @@ PrefabInstance:
         on areas that are in most need of them and not all over the country for that
         would cost more than what Empyria could afford.
 
-        
+
+
+        The PEN has said
+        that much like the UPE the construction of railroads would be the best choice
+        as that would be saving the country alot of money in the long term.
+
+
 
         The
-        PEN has said that much like the UPE the construction of railroads would be
-        the best choice as that would be saving the country alot of money in the
-        long term.
+        Candidates for the Parties are as follows:
 
-        
 
-        The Candidates for the Parties are as follows:
 
-        
+        The UPE is once again
+        nominating Chris Fester as their presidential candidate.
 
-        The
-        UPE is once again nominating Chris Fester as their presidential candidate.
 
-        
 
-        The
-        PSE is nominating Rikard Melborne as their presidental candidate again.
+        The PSE
+        is nominating Rikard Melborne as their presidental candidate again.
 
-        
+
 
         The
         DPP is seeking to give president Deldric a full term in office.
 
-        
+
 
         The
         PEN is again nominating their only influential member Adolf Schmidt.
 
-        
+
 
         Now
         its time for you to vote and help decide the winning party once again.
 
-        
+
 
         Pick
         a card, any card...'
@@ -17321,7 +17313,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7904005406216100174, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1300
+      value: 1800
       objectReference: {fileID: 0}
     - target: {fileID: 7904005406216100174, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -17892,7 +17884,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 159480042134602075, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.7586207
+      value: 0.8076923
       objectReference: {fileID: 0}
     - target: {fileID: 1714267781569371461, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_Name
@@ -17994,39 +17986,38 @@ PrefabInstance:
       propertyPath: dialogueContent.Array.data[0]
       value: 'Year 1936
 
-        
 
-        4 years have now passed and the economy
-        seems to be doing a little better.
 
-        
+        4 years have now passed and the economy seems
+        to be doing a little better.
 
-        The president has
-        managed to get a bit of his desired economic policy but not as much as he
-        had hoped, because the other 3 parties in the assembly has blocked much of
-        his legislative suggestions.
 
-        
 
-        The only reason he got
-        what he got is through compromising with the PSE to get a few Laissez-faire
-        policies in exhange for a workers rights law that gives the workers right
-        to a safe working place which did not help the economy much due to extra
-        cost to improve the workplaces for private and goverment owned companies,
-        but this did make the workers happy with the goverment.
+        The president has managed to get
+        a bit of his desired economic policy but not as much as he had hoped, because
+        the other 3 parties in the assembly has blocked much of his legislative suggestions.
 
-        
+
+
+        The
+        only reason he got what he got is through compromising with the PSE to get
+        a few Laissez-faire policies in exhange for a workers rights law that gives
+        the workers right to a safe working place which did not help the economy
+        much due to extra cost to improve the workplaces for private and goverment
+        owned companies, but this did make the workers happy with the goverment.
+
+
 
         The
         bigger corporations have also profited from this and has become a more influencial
         entity within the country.
 
-        
 
-        The president and the DPP
-        also worked together with the PSE on the rising issue of minority rights.
 
-        
+        The president and the DPP also worked
+        together with the PSE on the rising issue of minority rights.
+
+
 
         Minority
         rights had started to become a major issue after a clash between police and
@@ -18035,108 +18026,106 @@ PrefabInstance:
         caused a fight between them and this only ended when general Rudolf on the
         order of the president was sent to end the fighting.
 
-        
+
+
+        The fighting
+        had ended but the issue remained and was growing bigger around the country.
+
+
 
         The
-        fighting had ended but the issue remained and was growing bigger around the
-        country.
+        parties all had something to say about the issue during the election.
 
-        
 
-        The parties all had something to say about
-        the issue during the election.
-
-        
-
-        The UPE said that there
-        should be limited minority rights in order to calm down the situation.
-
-        
 
         The
-        PSE </span> said that people of a minority group should be treated as equals
-        to all Empyrians.
+        UPE said that there should be limited minority rights in order to calm down
+        the situation.
 
-        
 
-        The DPP said that minority rights
-        must be made a priority of the goverment in order to end the rising discontent
-        in the country and help the people of Empyria.
 
-        
+        The PSE </span> said that people of a minority
+        group should be treated as equals to all Empyrians.
 
-        The PEN
-        said that the call for minority rights should be ignored and that the people
-        who are considered a minority should be deported from the country in order
-        to make way for the empyrian people.
 
-        
+
+        The DPP said
+        that minority rights must be made a priority of the goverment in order to
+        end the rising discontent in the country and help the people of Empyria.
+
+
+
+        The
+        PEN said that the call for minority rights should be ignored and that the
+        people who are considered a minority should be deported from the country
+        in order to make way for the empyrian people.
+
+
 
         Another major issue
         for this election is the rising tensions between Empyria and the neighboring
         country of Entaro about the ownership of land that was previously held by
         Entaro and what should be done about it.
 
-        
 
-        The UPE thinks
-        that the army should reinforce the border with Entaro incase of war but should
-        try and figure out a peaceful solution if possible.
 
-        
+        The UPE thinks that the
+        army should reinforce the border with Entaro incase of war but should try
+        and figure out a peaceful solution if possible.
 
-        The
-        PSE thinks that Empyria should get closer to the Cambelen Union in order
-        to deter Entaro from hostilities.
 
-        
 
-        The DPP thinks that
-        Empyria should get closer to the country of Darmas in order to deter Entaro
+        The PSE thinks
+        that Empyria should get closer to the Cambelen Union in order to deter Entaro
         from hostilities.
 
-        
 
-        The PEN thinks that Empyria should
-        ignore the threats that Entaro are sending and that if a war breaks out Empyria
-        would crush them.
 
-        
+        The DPP thinks that Empyria should get closer
+        to the country of Darmas in order to deter Entaro from hostilities.
 
-        The final issue for this election
-        is the economy and its continuing recovery.
 
-        
 
-        The UPE
-        thinks that a trade aggrement with our neighbour Sallaran would help the
-        economy recover faster thanks to their abundant amount of oil.
+        The
+        PEN thinks that Empyria should ignore the threats that Entaro are sending
+        and that if a war breaks out Empyria would crush them.
 
-        
+
+
+        The final
+        issue for this election is the economy and its continuing recovery.
+
+
+
+        The
+        UPE thinks that a trade aggrement with our neighbour Sallaran would help
+        the economy recover faster thanks to their abundant amount of oil.
+
+
 
         The
         PSE thinks that the economy should be more goverment owned in oreder to stop
         the rising influence of the corporations.
 
-        
 
-        The DPP thinks
-        that the economy should be more private owned for it to recover and that
-        a trade aggrement with Sallaran would make the recovery go much faster and
-        even bring the country into a better place than it was before.
 
-        
+        The DPP thinks that
+        the economy should be more private owned for it to recover and that a trade
+        aggrement with Sallaran would make the recovery go much faster and even bring
+        the country into a better place than it was before.
 
-        The
-        PEN thinks that the economy should be more goverment owned to make sure that
-        there won''t be another recession.
 
-        
 
-        Now it is up to you
-        to once again be one of the ones to decide the direction of the next 4 years.
+        The PEN thinks
+        that the economy should be more goverment owned to make sure that there won''t
+        be another recession.
 
-        
+
+
+        Now it is up to you to once again be one
+        of the ones to decide the direction of the next 4 years.
+
+
 
         Pick
         a card, any card...'
@@ -18155,7 +18144,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7904005406216100174, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1100
+      value: 1470
       objectReference: {fileID: 0}
     - target: {fileID: 7904005406216100174, guid: c2ba07b375ceead43b10e1358b12a71f, type: 3}
       propertyPath: m_AnchoredPosition.y
